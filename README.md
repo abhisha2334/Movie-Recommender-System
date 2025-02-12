@@ -8,7 +8,7 @@ This project is a Movie Recommender System that suggests the top 5 movies simila
 The project includes:
 - A Machine Learning model that processes movie data and computes similarities.
 - A Streamlit-based frontend for user interaction.
-- Heroku deployment for easy access and demonstration.
+- Streamlit deployment for easy access and demonstration.
 
 Table of Contents
 - Features
@@ -28,7 +28,7 @@ Features
 - Movie Search: Select a movie from the database, and get 5 similar movies as recommendations.
 - Content-based Filtering: The model recommends movies based on the content of the selected movie using cosine similarity.
 - Interactive UI: A simple, intuitive interface built with Streamlit for easy user interaction.
-- Scalable Deployment: Deployed on Heroku for easy access and scalability.
+- Scalable Deployment: Deployed on streamlit cloud for easy access and scalability.
 
 ---
 
@@ -43,7 +43,7 @@ Frontend:
 - Streamlit: Python framework for creating interactive web apps.
 
 Deployment:
-- Heroku: Cloud platform for deployment.
+- Streamlit cloud: Cloud platform for deployment.
 
 ---
 
@@ -104,6 +104,7 @@ movie-recommender-system/
 ├── model.py               # ML model for movie recommendations
 ├── movies.csv             # Movie dataset
 ├── requirements.txt       # List of dependencies
+├── app.py                 # Deployment
 └── README.md              # Project documentation
 ```
 
@@ -126,22 +127,18 @@ How It Works
 
 Deployment
 
-Heroku Deployment Steps:
-1. Create Heroku App: 
-   - Log in to your Heroku account and create a new app.
+Streamlit Deployment Steps:
+1.Create streamlit app: 
+   - Log in to your streamlit account and create a new app.
    
-2. Add Buildpacks:
-   - Add heroku/python and heroku-buildpack-apt.
+2. Connect to your github repository:
+   - Choose the branch and file.
 
 3. Deploy the App:
-   - Push your code to Heroku:
-   
-```bash
-git push heroku main
-```
+   - Push your code to Streamlit.
 
 4. Access the App:
-   - The app will be accessible at the URL provided by Heroku.
+   - The app will be accessible at the URL provided by Streamlit.
 
 ---
 
@@ -150,14 +147,6 @@ Contributions are welcome! Feel free to open a pull request to improve the proje
 
 ---
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----![g1](https://github.com/user-attachments/assets/2150e135-30b6-4839-9ae2-2ebc5c4fb94a)
-![g3](https://github.com/user-attachments/assets/1c6b3ae1-34f6-472f-b46f-f03777c03dbd)
-
-
-![g2](https://github.com/user-attachments/assets/22e2e953-ca2d-4a35-81b6-0b600ffdcdf2)
 
 Enjoy discovering new movies!
 
