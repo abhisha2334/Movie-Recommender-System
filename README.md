@@ -92,7 +92,7 @@ Usage
 1. Select a movie: Use the dropdown in the Streamlit app to select a movie from the database.
 2. Get recommendations: The app will display the top 5 movies most similar to your selection.
 
-Try the live version here: [Heroku App Link](https://your-app.herokuapp.com)
+Try the live version here: [Streamlit App Link](https://movie-recommender-system-evf8lqvyip2xcjzmak9eiq.streamlit.app/)
 
 ---
 
@@ -104,8 +104,6 @@ movie-recommender-system/
 ├── model.py               # ML model for movie recommendations
 ├── movies.csv             # Movie dataset
 ├── requirements.txt       # List of dependencies
-├── Procfile               # Heroku deployment file
-├── setup.sh               # Heroku setup script
 └── README.md              # Project documentation
 ```
 
