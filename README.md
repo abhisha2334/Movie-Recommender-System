@@ -10,7 +10,7 @@ The project includes:
 - A Streamlit-based frontend for user interaction.
 - Streamlit deployment for easy access and demonstration.
 
-Table of Contents
+Table of Contents:
 - Features
 - Tech Stack
 - Dataset
