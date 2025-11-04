@@ -101,7 +101,7 @@ Project Structure
 movie-recommender-system/
 │
 ├── app.py                 # Streamlit app frontend
-├── model.py               # ML model for movie recommendations
+├── MoviePRO.ipynb               # ML model for movie recommendations
 ├── movies.csv             # Movie dataset
 ├── requirements.txt       # List of dependencies
 ├── app.py                 # Deployment
